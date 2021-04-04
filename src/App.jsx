@@ -15,7 +15,7 @@ function App() {
       <p>Status: {status}</p>
       <hr></hr>
       <div className="border p-4">
-        <ListeningIframe src="/iframe.html" onMessage={onMessage} width="100%" />
+        <ListeningIframe src="iframe.html" onMessage={onMessage} width="100%" />
       </div>
     </div>
   )
